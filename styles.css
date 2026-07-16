@@ -159,6 +159,10 @@ p {
   text-transform: uppercase;
 }
 
+.hero-mobile-image {
+  display: none;
+}
+
 h1 {
   max-width: 780px;
   margin-bottom: 22px;
@@ -530,7 +534,7 @@ textarea:focus {
   text-decoration: none;
 }
 
-.site-footer > span {
+.site-footer>span {
   justify-self: end;
 }
 
@@ -585,7 +589,7 @@ textarea:focus {
   }
 
   .site-footer,
-  .site-footer > span {
+  .site-footer>span {
     justify-items: center;
     justify-self: center;
     text-align: center;
@@ -626,6 +630,12 @@ textarea:focus {
   .hero {
     min-height: 620px;
     padding-top: 92px;
+  }
+
+  .hero-mobile-image {
+    display: block;
+    width: 150px;
+    opacity: 0.9;
   }
 
   .quick-cards {
@@ -962,6 +972,7 @@ textarea:focus {
 }
 
 @media (max-width: 920px) {
+
   .hero:has(.hero-art),
   .example-section,
   .how {
