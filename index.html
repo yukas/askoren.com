@@ -17,146 +17,137 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header" aria-label="Oren branding">
-      <a class="brand" href="#top" aria-label="Oren home">
+    <header class="topbar" aria-label="Oren navigation">
+      <a class="topbar-brand" href="#top" aria-label="Oren home">
         <span class="brand-mark" aria-hidden="true">
           <span></span>
           <span></span>
         </span>
         <span>Oren</span>
       </a>
+      <nav class="topbar-actions" aria-label="Primary">
+        <a class="nav-link" href="#faq">FAQ</a>
+        <a class="nav-button" href="#early-access">Get Early Access</a>
+      </nav>
     </header>
 
-    <br>
-
     <main id="top">
-      <section class="hero section">
-        <div class="hero-copy">
-          <p class="eyebrow">For the argument that keeps coming back.</p>
-          <h1>You're probably not arguing about what you think you're arguing about.</h1>
-          <p class="hero-subhead">Sit together. Speak the story out loud. Add both parts, find the need underneath, and start again.</p>
-          <a class="button" href="#early-access">Get Early Access</a>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="phone-screen">
-            <div class="voice-bars">
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <h2>"I have to carry everything in my head."</h2>
-            <h3>What might be happening underneath</h3>
-            <p>
-              One of you starts with the shared story: the plans, reminders,
-              small misses, and the moment it became too much.
-            </p>
-            <div class="phone-insight">
-              <span>Need underneath</span>
-              <strong>"I want us to share the invisible work, not just the visible tasks."</strong>
-            </div>
-            <br>
-            <div class="phone-mic"></div>
-            <p class="phone-prompt">Hold and speak</p>
-          </div>
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="hero-offer">Early beta for couples</p>
+          <h1>Speak through the argument you keep having.</h1>
+          <p class="hero-subhead">
+            Sit together, tell the story out loud, add both perspectives, and find the need underneath.
+          </p>
+          <form class="hero-form" aria-label="Join the Oren waitlist" action="#early-access">
+            <input type="email" placeholder="Enter your email" aria-label="Email address">
+            <button type="submit">Get Early Access</button>
+          </form>
         </div>
       </section>
 
-      <section class="section examples" aria-labelledby="examples-title">
-        <div class="section-intro">
-          <p class="eyebrow">What changes</p>
-          <h2 id="examples-title">When you speak the story, the softer truth has room to appear.</h2>
+      <section class="quick-cards section" aria-label="Ways Oren helps">
+        <article>
+          <div class="quick-icon">1</div>
+          <h2>Tell it once</h2>
+          <p>One of you starts by narrating the shared moment, without turning it into a debate.</p>
+          <a href="#how">Start with voice</a>
+        </article>
+        <article>
+          <div class="quick-icon">2</div>
+          <h2>Add both parts</h2>
+          <p>Each partner adds what felt important, missing, or misunderstood in the first version.</p>
+          <a href="#examples">See examples</a>
+        </article>
+        <article>
+          <div class="quick-icon">3</div>
+          <h2>Return softer</h2>
+          <p>Oren helps reveal the need underneath, so the next sentence has somewhere calmer to begin.</p>
+          <a href="#early-access">Join beta</a>
+        </article>
+      </section>
+
+      <section class="feature-band feature-primary" id="examples">
+        <div class="feature-copy">
+          <p class="eyebrow">Mental load</p>
+          <h2>"When plans change, I feel like I'm the only one adjusting."</h2>
+          <p>
+            The story may start with calendars, errands, childcare, or social plans. When both people add their part, a logistics fight can become a clearer picture of invisible work.
+          </p>
+          <a class="text-cta" href="#early-access">Speak it through</a>
         </div>
-        <div class="example-stack">
-          <article class="example-section example-listen">
-            <div class="example-copy">
-              <p class="surface">"When plans change, I feel like I'm the only one adjusting."</p>
-              <p class="example-description">
-                The spoken story might begin with calendars, errands, childcare, or social plans. As both people add their part, the conflict can shift from logistics into the deeper feeling of carrying the relationship's coordination alone.
-              </p>
-              <div class="underneath">
-                <span>Need underneath</span>
-                <p>I want our life together to feel shared before I have to ask for help.</p>
-              </div>
-            </div>
-            <div class="example-graphic">
-              <img
-                src="assets/mental-load.png"
-                alt="A couple sitting at a table with notes, reminders, keys, and a calendar showing the invisible work of shared planning."
-              >
-            </div>
-          </article>
-
-          <article class="example-section example-effort">
-            <div class="example-copy">
-              <p class="surface">"Every time I bring something up, you turn it into a trial."</p>
-              <p class="example-description">
-                One partner may be trying to name a hurt while the other hears a verdict on their character. Speaking it through helps separate the original pain from the fear of being seen as the bad one.
-              </p>
-              <div class="underneath">
-                <span>Need underneath</span>
-                <p>I want repair to feel possible without either of us becoming the villain.</p>
-              </div>
-            </div>
-            <div class="example-graphic">
-              <img
-                src="assets/closeness.png"
-                alt="A couple facing each other in a calm repair conversation, with one partner speaking and the other listening."
-              >
-            </div>
-          </article>
-
-          <article class="example-section example-close">
-            <div class="example-copy">
-              <p class="surface">"We live in the same home, but I feel like I have to schedule closeness."</p>
-              <p class="example-description">
-                The first version may sound like pressure about affection, sex, phones, work, or bedtime. When both people add the missing context, the story can reveal stress, rejection, longing, and a wish to feel chosen again.
-              </p>
-              <div class="underneath">
-                <span>Need underneath</span>
-                <p>I want closeness to feel natural again, not negotiated at the end of the day.</p>
-              </div>
-            </div>
-            <div class="example-graphic">
-              <img
-                src="assets/repair.png"
-                alt="A tired couple reaching toward each other at the end of the day in a soft bedroom scene."
-              >
-            </div>
-          </article>
+        <div class="feature-image">
+          <img
+            src="assets/mental-load.png"
+            alt="A couple sitting at a table with notes, reminders, keys, and a calendar showing the invisible work of shared planning."
+          >
         </div>
       </section>
 
-      <section class="section how" aria-labelledby="how-title">
-        <div class="section-intro">
+      <section class="feature-band feature-secondary">
+        <div class="feature-image">
+          <img
+            src="assets/closeness.png"
+            alt="A couple facing each other in a calm repair conversation, with one partner speaking and the other listening."
+          >
+        </div>
+        <div class="feature-copy">
+          <p class="eyebrow">Repair without blame</p>
+          <h2>"Every time I bring something up, you turn it into a trial."</h2>
+          <p>
+            One partner may be naming a hurt while the other hears a verdict on their character. Oren helps separate the original pain from the fear of being the bad one.
+          </p>
+          <a class="text-cta" href="#early-access">Make space for both</a>
+        </div>
+      </section>
+
+      <section class="feature-band feature-tertiary">
+        <div class="feature-copy">
+          <p class="eyebrow">Closeness under stress</p>
+          <h2>"We live in the same home, but I have to schedule closeness."</h2>
+          <p>
+            What sounds like pressure about affection, phones, work, or bedtime can reveal stress, rejection, longing, and the wish to feel chosen again.
+          </p>
+          <a class="text-cta" href="#early-access">Find the need</a>
+        </div>
+        <div class="feature-image">
+          <img
+            src="assets/repair.png"
+            alt="A tired couple reaching toward each other at the end of the day in a soft bedroom scene."
+          >
+        </div>
+      </section>
+
+      <section class="how-section" id="how" aria-labelledby="how-title">
+        <div class="section-intro centered">
           <p class="eyebrow">How it works</p>
-          <h2 id="how-title">Sit together. Speak it through. Return differently.</h2>
+          <h2 id="how-title">A calmer way to replay the moment.</h2>
         </div>
-        <div class="steps" aria-label="Oren reflection steps">
-          <article class="step">
-            <span class="step-number">1</span>
-            <p>One of you narrates the story out loud for both of you.</p>
+        <div class="process-row">
+          <article>
+            <span>1</span>
+            <h3>Hold and speak</h3>
+            <p>One partner narrates the shared story out loud.</p>
           </article>
-          <div class="step-arrow" aria-hidden="true"></div>
-          <article class="step">
-            <span class="step-number">2</span>
-            <p>Each of you adds what felt important, missing, or misunderstood.</p>
+          <article>
+            <span>2</span>
+            <h3>Add the missing parts</h3>
+            <p>Both partners add what they felt, missed, or assumed.</p>
           </article>
-          <div class="step-arrow" aria-hidden="true"></div>
-          <article class="step">
-            <span class="step-number">3</span>
-            <p>See the whole picture, the need underneath, and the next sentence.</p>
+          <article>
+            <span>3</span>
+            <h3>See the need</h3>
+            <p>Oren shows the misunderstanding and a next sentence.</p>
           </article>
         </div>
-        <p class="support-note">
-          Oren is built for the moment when you are sitting together and need help slowing the story down. Start with one voice, then make space for both.
-        </p>
       </section>
 
-      <section class="section early-access" id="early-access" aria-labelledby="early-title">
+      <section class="early-access" id="early-access" aria-labelledby="early-title">
         <div class="signup-panel">
           <div class="signup-copy">
             <p class="eyebrow">Early access</p>
             <h2 id="early-title">Join the first Oren beta.</h2>
-            <p>For couples ready to speak through the pattern, not win the fight.</p>
+            <p>For couples ready to understand the pattern, not win the fight.</p>
           </div>
 
           <form class="waitlist-form" id="waitlist-form">
@@ -177,11 +168,10 @@
             <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
           </form>
         </div>
-
       </section>
 
-      <section class="section faq" aria-labelledby="faq-title">
-        <div class="section-intro">
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-intro centered">
           <p class="eyebrow">FAQ</p>
           <h2 id="faq-title">A few clear answers.</h2>
         </div>
@@ -207,7 +197,16 @@
     </main>
 
     <footer class="site-footer">
-      <span>Oren</span>
+      <div>
+        <strong>Oren</strong>
+        <span>Speak through the story together.</span>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#how">How it works</a>
+        <a href="#examples">Examples</a>
+        <a href="#early-access">Early access</a>
+        <a href="#faq">FAQ</a>
+      </nav>
       <span>Copyright 2026 Oren. All rights reserved.</span>
     </footer>
 
