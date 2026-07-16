@@ -600,6 +600,14 @@ textarea:focus {
     min-height: 0;
   }
 
+  .hero {
+    padding-top: 0px;
+  }
+
+  .hero-copy {
+    padding-top: 20px;
+  }
+
   .hero-art {
     min-height: 560px;
   }
@@ -668,6 +676,14 @@ textarea:focus {
 
   .step-arrow {
     margin-left: 45px;
+  }
+
+  .hero {
+    padding-top: 0px;
+  }
+
+  .hero-copy {
+    padding-top: 20px;
   }
 
   .hero-art {
